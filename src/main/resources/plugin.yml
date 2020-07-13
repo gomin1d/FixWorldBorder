@@ -1,0 +1,7 @@
+name: FixWorldBorder
+version: ${project.version}
+main: ua.lokha.fixworldborder.Main
+description: "https://github.com/lokha/FixWorldBorder"
+
+# Кодил это? Впиши себя сам
+authors: [lokha]

@@ -56,7 +56,7 @@ public class FixJoinLocationEvents implements Listener {
 		World world = loc.getWorld();
 		WorldBorder border = world.getWorldBorder();
 		if(!border.isInside(loc)){
-			for(int y = 1000; y > 0; y--){
+			for(int y = 255; y > 0; y--){
 				Block block = world.getBlockAt(0, y, 0);
 				if(block.getType() != Material.AIR){
 					return new Location(world, 0, y, 0);
